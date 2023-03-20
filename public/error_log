@@ -1,0 +1,8 @@
+[21-Feb-2019 15:13:33 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ErrorException: include(/home/nhrboint/public_html/public/rbooks-vn-management/vendor/composer/../../app/Exceptions/Handler.php): failed to open stream: No such file or directory in /home/nhrboint/public_html/public/rbooks-vn-management/vendor/composer/ClassLoader.php:440
+Stack trace:
+#0 /home/nhrboint/public_html/public/rbooks-vn-management/vendor/composer/ClassLoader.php(440): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/n...', '/home/nhrboint/...', 440, Array)
+#1 /home/nhrboint/public_html/public/rbooks-vn-management/vendor/composer/ClassLoader.php(440): include()
+#2 /home/nhrboint/public_html/public/rbooks-vn-management/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/nhrboint/...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /home/nhrboint/public_html/public/rbooks-vn-management/vendor/laravel/framework/src/Illuminate/Conta in /home/nhrboint/public_html/public/rbooks-vn-management/vendor/composer/ClassLoader.php on line 440

@@ -1,0 +1,19 @@
+/node_modules
+/public/hot
+/public/storage
+/public/upload
+/public/imgs/products
+/storage/*.key
+/vendor
+/.idea
+/.vscode
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env
+rbooks-vn.sublime-project
+rbooks-vn.sublime-workspace
+analysis/models/RBooks 1.0.pdm
+auto_deploy.sh

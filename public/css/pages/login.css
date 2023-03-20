@@ -1,0 +1,139 @@
+body, h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("http://rbooks.vn/public/rbooks-vn-management/public/image/bg-signin.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.login-box{
+    width: 50rem;
+    margin: 0;
+}
+
+.login-logo{
+    margin-bottom: 50px;
+}
+
+.login-logo h2 a,
+.login-logo img{
+    display: block;
+}
+
+.login-logo img{
+    max-width: 50px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.login-logo h2{
+    margin: 5px 0 0;
+}
+
+.login-logo h2 a{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.login-box-body{
+    background: transparent;
+}
+
+.login-box-body .login-form{
+    margin-bottom: 37px;
+}
+
+.login-box-body .login-form .form-group{
+    margin-bottom: 0;
+}
+
+.login-box-body .login-form .form-group:first-child{
+    margin-bottom: 37px;
+}
+
+.login-box-body .login-form .form-control{
+    height: 5rem;
+    border-radius: 1.7rem;
+    padding: 6px 12px;
+    font-size: 1.5rem;
+}
+
+.login-box-body .login-form .has-feedback .form-control{
+    padding-left: 50px;
+}
+
+.login-box-body .login-form .form-control-feedback{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    left: 0;
+    right: auto;
+    font-size: 2rem;
+}
+
+.login-control{
+    margin-bottom: 37px;
+}
+
+.login-control .row{
+    display: flex;
+    align-items: center;
+}
+
+.login-control .login-remember{
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.login-control .login-remember .icheckbox_square-blue{
+    border-radius: 5px;
+    margin-right: 5px;
+    background-color: #fff;
+}
+
+.login-control .forgot-pass{
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+}
+
+.login-control .forgot-pass:hover{
+    text-decoration: none;
+}
+
+.login-control .login-remember .text,
+.login-control .forgot-pass{
+    color: #fff;
+}
+
+.btn-signin{
+    width: 100%;
+    outline: 0;
+    font-size: 19px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    background-color: #ea7a3d;
+    border: 0.3px solid #fff;
+    transition: all .5s ease 0s;
+}
+
+.btn-signin:hover,
+.btn-signin:focus,
+.btn-signin:active,
+.btn-signin:active:focus{
+    outline: 0;
+    color: #ea7a3d;
+    background-color: #fff;
+    border: 0.3px solid #ea7a3d;
+}

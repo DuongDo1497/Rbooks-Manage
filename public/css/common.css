@@ -1,0 +1,38 @@
+.cur-pointer {
+    cursor: pointer;
+}
+
+.loading-wrapper {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 9999;
+}
+
+.loading-wrapper .loading {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 200px;
+}
+
+.table-hover thead {
+    border-top: 1px solid #f4f4f4;
+}
+
+.dz-default.dz-message {
+    padding: 20px;
+    text-align: center;
+    border: 1px dashed #0984e3;
+    cursor: pointer;
+}
+
+.dz-image {
+    padding-top: 10px;
+}
+
+#upload-images-preview .dz-success-mark, #upload-images-preview .dz-error-mark {
+    display: none;
+}
