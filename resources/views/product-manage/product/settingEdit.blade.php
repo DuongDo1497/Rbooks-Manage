@@ -77,6 +77,14 @@
                         <label>{{ trans('home.Nhà phát hành không dấu') }}</label>
                         <input type="text" class="form-control" name="input_publisherEnglish" value="{{ $model->publisherEnglish }}">
                     </div>
+                    <div class="form-group">
+                        <label>Định lượng</label>
+                        <input type="text" class="form-control" name="quantitative" id="quantitative" value="{{ $model->quantitative }}">
+                    </div>
+                    <div class="form-group">
+                        <label>Quy cách đóng gói</label>
+                        <input type="text" class="form-control" name="packing" id="packing" value="{{ $model->packing }}">
+                    </div>
                 </div>
     
                 <div class="tab-pane" id="product-inventory">

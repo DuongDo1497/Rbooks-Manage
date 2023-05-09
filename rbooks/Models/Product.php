@@ -12,7 +12,7 @@ class Product extends BaseModel
      * @var array
      */
     protected $fillable = [
-        'sku', 'isbn', 'barcode', 'name', 'slug', 'publishing_year', 'cover_price', 'sale_price', 'promotion_price',
+        'sku', 'isbn', 'barcode', 'name', 'slug', 'quantitative', 'packing', 'publishing_year', 'cover_price', 'sale_price', 'promotion_price',
         'description', 'excerpt', 'quantity', 'status', 'author', 'size', 'paper', 'updated_user_id', 'publisher','publisherEnglish','pub_company'
     ];
 
